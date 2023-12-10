@@ -1,3 +1,4 @@
+--query for artist model table
 {{ config(materialized = 'table') }}
 
 SELECT {{ dbt_utils.surrogate_key(['artistId']) }} AS artistKey,
