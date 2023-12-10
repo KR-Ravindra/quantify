@@ -1,3 +1,4 @@
+#this is scheduler for the pipeline
 from datetime import datetime
 
 from airflow import DAG
