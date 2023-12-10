@@ -1,3 +1,4 @@
+-- Creates a table name with month day and hour values appended to it
 INSERT {{ BIGQUERY_DATASET }}.{{ LISTEN_EVENTS_TABLE }}
 SELECT
     COALESCE(artist, 'NA') AS artist,
@@ -16,5 +17,4 @@ SELECT
     COALESCE(firstName, 'NA') AS firstName,
     COALESCE(gender, 'NA') AS gender,
     COALESCE(registration, 9999999999999) AS registration
-FROM {{ BIGQUERY_DATASET }}.{{ LISTEN_EVENTS_TABLE}}_{{ logical_date.strftime("%m%d%H") }} -- Creates a table name with month day and hour values appended to it
-                                                                                            -- like listen_events_032313 for 23-03-2022 13:00:00
+FROM {{ BIGQUERY_DATASET }}.{{ LISTEN_EVENTS_TABLE}}_{{ logical_date.strftime("%m%d%H") }} 
