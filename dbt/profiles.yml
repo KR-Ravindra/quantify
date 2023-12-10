@@ -11,6 +11,7 @@ quantify:
       threads: 4
       timeout_seconds: 300
       type: bigquery
+      
     prod:
       dataset: quantify_prod
       fixed_retries: 1

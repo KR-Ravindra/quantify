@@ -54,6 +54,7 @@ services:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: "zookeeper:2181"
 
+
   control-center:
     image: confluentinc/cp-enterprise-control-center:5.4.0
     hostname: control-center

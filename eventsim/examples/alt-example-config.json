@@ -13,6 +13,7 @@
     {"auth" : "Logged Out", "show" : false},
     {"auth" : "Cancelled", "show" : true}
  ],
+ 
  "levels" : [{"level":"free","weight":10}, {"level":"paid","weight":2}],
  "auths" : [{"auth":"Guest","weight":0}, {"auth":"Logged In","weight":10}, {"auth":"Logged Out","weight":1}],
  "new-session" : [

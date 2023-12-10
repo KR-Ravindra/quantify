@@ -10,6 +10,8 @@ The main objective of this project is to provide a data engineering solution to 
 
 ### Final Result
 
+- Link to public snapshot of grafana dashboard [https://rajaravindra919.grafana.net/dashboard/snapshot/wGqVPaDV6u1BkEJFOWKljXMrIp3OzKNH?orgId=0&refresh=30s](https://rajaravindra919.grafana.net/dashboard/snapshot/wGqVPaDV6u1BkEJFOWKljXMrIp3OzKNH?orgId=0&refresh=30s)
+
 ![dashboard](images/dashboard.png)
 ## Setup
 

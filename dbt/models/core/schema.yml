@@ -1,5 +1,6 @@
 version: 2
 
+
 sources:
     - name: staging
       database: "{{ env_var('GCP_PROJECT_ID') }}"
